@@ -1,0 +1,21 @@
+{
+    "name": "charjr/daggertest",
+    "description": "Prospective Features for Dagger SDK",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Dagger\\": ["src/"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dagger\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    }
+}
